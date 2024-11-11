@@ -2811,6 +2811,7 @@ li.stylish-list {
 #nav-container{
   flex-wrap: nowrap !important;
   flex-direction: column;
+  transition: all 300ms ease-in-out;
 }
 
 @media screen and (min-width: 992px) {
