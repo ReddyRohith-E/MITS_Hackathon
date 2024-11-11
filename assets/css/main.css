@@ -2531,7 +2531,7 @@ img#nav-logo {
   margin-top: 25px;
 }
 #hero-area .contents .banner-btn {
-  margin-top: 35vh;
+  margin-top: 1rem;
 }
 
 #hero-area .contents .head-title {
@@ -2602,9 +2602,6 @@ div#clock {
   font-family: monospace;
 }
 
-#hero-image {
-  display: none;
-}
 @media (max-width: 720px) {
   /* .hero-area-bg {
     background: url(../img/background/BG.png) no-repeat !important;
@@ -2818,6 +2815,15 @@ li.stylish-list {
   #nav-container{
     flex-wrap: nowrap !important;
     flex-direction: row;
+  } 
+}
+
+#hero-image{
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+  #hero-image{
+    margin-bottom: 25vh;
   }
-  
 }
