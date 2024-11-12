@@ -132,7 +132,7 @@ ol li {
   margin-bottom: 10px;
 }
 
-.section-title:before {
+/* .section-title:before {
   content: '[';
   color: #0099ff;
   padding-right: 10px;
@@ -142,7 +142,7 @@ ol li {
   content: ']';
   color: #0099ff;
   padding-left: 10px;
-}
+} */
 
 .section-subcontent {
   font-size: 16px;
