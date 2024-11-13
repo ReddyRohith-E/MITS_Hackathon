@@ -1020,7 +1020,7 @@ a.back-to-top:focus {
    Video Section Style
    ========================================================================== */
 .ready-to-play {
-  height: 460px;
+  height: 580px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -1044,16 +1044,40 @@ video {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
+  min-width: 75%;
   min-height: 100%;
-  width: auto;
+  width: 75%;
   height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
   transition: 1s opacity;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  margin: 20px 0px 20px 0px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #e83e8c;
+  color: #ffffff;
 }
 
 .stop {
