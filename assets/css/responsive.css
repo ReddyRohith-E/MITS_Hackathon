@@ -239,3 +239,38 @@
   }
   
 }
+
+@media (max-width: 768px) {
+  .ready-to-play {
+    height: 300px;
+  }
+
+  video {
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .ready-to-play {
+    height: 200px;
+  }
+
+  video {
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
