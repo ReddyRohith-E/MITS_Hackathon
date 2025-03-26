@@ -5,8 +5,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
-  <title>INNOSPARK 1.0</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+  <title>EPICS-2k25</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -23,13 +23,12 @@
   <link rel="shortcut icon" type="image/jpg" href="assets/img/codecell-logo.png" />
 
   <style>
-
-
     #hero-image {
       margin-left: auto;
       margin-right: auto;
       width: 50vw;
     }
+
     @media (max-width: 600px) {
       #sponsor-image {
         width: 80vw !important;
@@ -39,10 +38,13 @@
         width: 90vw;
       }
     }
-    .button-active-click{
+
+    .button-active-click {
       background-color: #007bff;
     }
-    .button-active-click:active, .button-active-click:hover{
+
+    .button-active-click:active,
+    .button-active-click:hover {
       background-color: rgb(253, 45, 191);
       color: white;
       box-shadow: 0 4px 10px 2px #f8f9fa;
@@ -83,17 +85,17 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#prizes">
-                Prizes
+                Events
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#schedules">
                 schedule
               </a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="#sponsors">
-                Sponsors
+                Contact
               </a>
             </li>
             <li class="nav-item">
@@ -111,6 +113,7 @@
     <!-- Hero Area Start -->
     <div id="hero-area" class="hero-area-bg">
       <div class="overlay"></div>
+      <img src="./assets/img/round.png" alt="" class="round">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-9 col-sm-12">
@@ -123,12 +126,11 @@
                 <p class="banner-desc">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, nobis nesciunt atque perferendis, ipsa doloremque deserunt cum qui.</p> -->
 
-              <img id="hero-image" src="assets/img/Logo-removebg-preview.png" alt="">
+              <img id="hero-image" src="assets/img/logo/logo.png" alt="">
               <div class="banner-btn">
-                <a href="https://forms.gle/S7bRWctJ7nBAh8fb6" target="_blank"
-                  class="btn button-active-click">Register Now!</a>
+                <a href="#prizes" class="btn button-active-click">Events</a>
               </div>
-              <div class="banner-info">Last date for registration is approaching fast. <br>Don't miss out!<br>Hackathon begins on 25<sup>th</sup> November.
+              <div class="banner-info"></div>
             </div>
           </div>
         </div>
@@ -171,35 +173,29 @@
   <!-- Count Bar End -->
 
   <!-- About Section Start -->
-  <section id="about" class="section-padding">
+  <section id="about" class="section-padding" style="background-color: white;">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-xs-12" style="display: flex; align-items: center; justify-content: center;">
           <div class="img-thumb">
-            <img style="border-radius: 50%; width: 10vw; align-self: center;" class="img-fluid"
-              src="assets/img/background/hacklogo.jpeg" alt="">
+            <img style="width: 10vw; align-self: center; background-color: white;" class="img-fluid"
+              src="assets/img/logo.png" alt="">
           </div>
         </div>
-        <div class="col-lg-6 col-md-12 col-xs-12">
+        <div class="col-lg-6 col-md-12 col-xs-12" style="color: black;">
           <div class="about-content">
             <div>
               <div class="about-text">
-                <h2>About The Hackathon</h2>
-                <p>National Level Hackathon - 1.0 organized by Department of CSE, Madanapalle Institute of Technology &
-                  Science, Madanapalle. It is an in-person 1-Day event for innovatively fostering real-world
-                  problem-solving skills.</p>
+                <h2>About EPICS 2k25</h2>
+                <p style="color: black;">EPICS-2k25 is a 1-day National Level Technical Symposium organized by the
+                  Department of CSE-CS, MITS on 10<sup>th</sup> April 2025. This event aims to bring together students,
+                  professionals, and enthusiasts to showcase their technical skills, collaborate on innovative ideas,
+                  and compete in various technical challenges. Join us for an exciting day filled with learning,
+                  networking, and opportunities to win amazing prizes!</p>
               </div>
               <ul class="stylish-list mb-3 hackathon_list">
-                <li><i style="color:turquoise;" class="lni-check-mark-circle"></i>Date: 25<sup>th</sup> November 9:00AM
-                  IST</li>
-                <li><i style="color:turquoise;" class="lni-check-mark-circle"></i>Team Size: 1 to 3 members</li>
-                <li><i style="color:turquoise;" class="lni-check-mark-circle"></i>Participation fee for CSI Members: ₹ 200</li>
-                <li><i style="color:turquoise;" class="lni-check-mark-circle"></i>Participation fee for others: ₹ 300</li>
+                <li><i style="color:turquoise;" class="lni-check-mark-circle"></i>Date: 10<sup>th</sup> April</li>
               </ul>
-              <div class="banner-btn">
-                <a href="https://forms.gle/S7bRWctJ7nBAh8fb6" target="_blank"
-                  class="btn button-active-click">Register Now!</a>
-              </div>
             </div>
           </div>
         </div>
@@ -210,17 +206,8 @@
 
   <!-- Video Section Start -->
   <div class="ready-to-play">
-      <video id="bgvid" class="stop" loop>
-        <source src="assets/video/promo.mp4" type="video/mp4">
-      </video>
-      <div id="polina" class="video-text">
-        <div class="tb-t">
-            <div class="tb-c">
-              <div class="polina"><button><i class='lni-play'></i></button></div>
-            </div>
-        </div>
-      </div>
-    </div>
+    <img src="./assets/img/banner.jpg" alt="" class="img-banner">
+  </div>
   <!-- Video Section End -->
 
   <!-- Information Bar Start -->
@@ -230,9 +217,17 @@
         <div class="col-lg-3 col-md-6 col-xs-12">
           <ul>
             <li>
+              <i class="lni lni-users"></i>
+            </li>
+            <li><span><b>Organized by</b> Department of CSE-CS</span></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-xs-12">
+          <ul>
+            <li>
               <i class="lni-map-marker"></i>
             </li>
-            <li><span><b>Mode of Conduct</b> Offline</span></li>
+            <li><span><b>Venue</b> MITS</span></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 col-xs-12">
@@ -240,11 +235,11 @@
             <li>
               <i class="lni-calendar"></i>
             </li>
-            <li><span><b>Date & Time</b> 25<sup>th</sup> November, 2024 at 9AM</span></li>
+            <li><span><b>Date & Time</b> 10<sup>th</sup> April, 2025 at 9AM</span></li>
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 col-xs-12">
+        <!-- <div class="col-lg-3 col-md-6 col-xs-12">
           <ul>
             <li>
               <i class="lni-user"></i>
@@ -261,7 +256,7 @@
               <li><span><b>Theme</b>Open Theme</span></li>
             </a>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -270,120 +265,224 @@
 
   <!-- Prizes Section Start -->
   <section id="prizes" class="section-padding">
-    <div class="container">
+    <div class="container" style="max-width: none !important;">
       <div class="row">
         <div class="col-12">
           <div class="section-title-header text-center">
-            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Prizes and Awards</h2>
-            <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Cash prizes and all deliverables will be announced shortly. All participants will receive Certificate of Participation.</p> -->
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Technical</h2>
           </div>
         </div>
       </div>
-      <div class="row d-flex align-items-center justify-content-center w-75 mx-auto">
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="event-item">
-            <img class="img-fluid" src="assets/img/prize/cash.png" alt="">
-            <div class="overlay-text">
-              <div class="content">
-                <h3>Cash Prizes</h3>
-                <h3 style="text-transform: capitalize; font-size: 14px; line-height: 20px;">1st Place: ₹ 7,000<br>
-                  2nd Place: ₹ 4,000<br>
-                  3rd Place: ₹ 2,000<br>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div>
-            <h3
-              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
-              Cash Prizes</h3>
-            <h3 class="prize-desc"
-              style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center;">1st Place: ₹
-              7,000<br>
-              2nd Place: ₹ 4,000<br>
-              3rd Place: ₹ 2,000<br>
-            </h3>
-          </div>
-        </div>
-
-        <!-- <div class="col-lg-4 col-md-6 col-xs-12">
-        <div class="event-item">
-          <img class="img-fluid" src="assets/img/prize/more.png" alt="">
-          <div class="overlay-text">
-            <div class="content">
-              <h3>More Prizes for Winners</h3>
-              <h3 style="text-transform: capitalize; font-size: 14px; line-height: 20px;">
-              1. Wolfram Award for Top 10 teams<br>(worth $375 per user)<br>
-              2. 90%-70% discount coupons for any Coding Blocks course<br>
-              3. SITH free course<br>
-              4. Pair a dice cafe coupons</h3>
-            </div>
-          </div>
-        </div>
-        <div >
-          <h3 style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">More Prizes for Winners</h3>
-          <h3 class="prize-desc" style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center;">1. Wolfram Award for Top 10 teams<br>(worth $375 per user)<br>
-            2. 90%-70% discount coupons for any Coding Blocks course<br>
-            3. SITH free course<br>
-            4. Pair a dice cafe coupons</h3>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-xs-12">
-        <div class="event-item">
-          <img class="img-fluid" src="assets/img/prize/vouchers.png" alt="">
-          <div class="overlay-text">
-            <div class="content">
-              <h3>Goodies for All</h3>
-              <h3 style="text-transform: capitalize; font-size: 14px; line-height: 20px;">Participants get access to:-<br>
-              1. Wolfram|One ($25 for a month)<br>
-              2. Repl.it HackerPlan ($` for 3 months)<br>
-              3. Taskade Unlimited plan ($60 for 1 year)<br>
-              4. SashiDo platform credits<br>
-              5. 65% discount coupons for Coding Blocks courses<br></h3>
-            </div>
-          </div>
-        </div>
-        <div >
-          <h3 style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">Goodies for All</h3>
-          <h3 class="prize-desc" style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center;">Participants get access to:-<br>
-            1. Wolfram|One ($25 for a month)<br>
-            2. Repl.it HackerPlan ($21 for 3 months)<br>
-            3. Taskade Unlimited plan ($60 for 1 year)<br>
-            4. SashiDo platform credits<br>
-            5. 65% discount coupons for Coding Blocks courses<br></h3>       
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-xs-12">
-        <div class="event-item">
-          <img class="img-fluid" src="assets/img/prize/internship.png" alt="">
-          <div class="overlay-text">
-            <div class="content">
-              <h3>Internship Opportunities</h3>
-              <h3 style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center; padding: 5px;">Internships and mentorship provided by CertifyMe and SITH</h3>
-            </div>
-          </div>
-        </div>
-        <div >
-          <h3 style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">Internship Opportunities</h3>
-          <h3 class="prize-desc" style="text-transform: capitalize; font-size: 14px; line-height: 20px; text-align: center;">Internships and mentorship provided by CertifyMe and SITH.</h3>
-        </div>
-      </div> -->
-
-        <div class="col-lg-4 col-md-6 col-xs-12">
+      <div class="row d-flex align-items-center justify-content-center w-75 mx-auto events">
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
           <div class="event-item">
             <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
             <div class="overlay-text">
               <div class="content">
-                <h3>Certificate of Participation</h3>
+                <h3>Paper Presentation</h3>
               </div>
             </div>
           </div>
           <div>
             <h3
               style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
-              Certificate of Participation</h3>
+              Paper Presentation</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/nYDYR5Sc3URduQf39">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>Poster Presentation</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              Poster Presentation</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/nYDYR5Sc3URduQf39">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>Next Gen Engineer Expo</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              Next Gen Engineer Expo</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/nYDYR5Sc3URduQf39">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>Glitch Hunting</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              Glitch Hunting</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/nYDYR5Sc3URduQf39">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>TechnoWhiz</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              TechnoWhiz</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/nYDYR5Sc3URduQf39">Register Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="prizes" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title-header text-center">
+            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Non Technical</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-center w-90 mx-auto events">
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>Film Cracker</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              Film Cracker</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/6dUdmNfjsANj1gSX6">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>Detective Dynasty</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              Detective Dynasty</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/6dUdmNfjsANj1gSX6">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>Squid Game</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              Squid Game</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/6dUdmNfjsANj1gSX6">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>Fitness Challenge</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              Fitness Challenge</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/6dUdmNfjsANj1gSX6">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>E-Sports</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              E-Sports</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/UGJ4Brn8fWRh3tbMA">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-xs-12 event-card">
+          <div class="event-item">
+            <img class="img-fluid" src="assets/img/prize/cert.png" alt="">
+            <div class="overlay-text">
+              <div class="content">
+                <h3>Short Film Contest</h3>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3
+              style="text-align: center; font-size: 18px; font-family: sans-serif; margin-bottom: 10px; margin-top: 5px;">
+              Short Film Contest</h3>
+            <p>Registration Fees: 100/-</p>
+            <a href="https://forms.gle/SjDzwFQVTZsyYRcR9">Register Now</a>
           </div>
         </div>
       </div>
@@ -391,157 +490,6 @@
     </div>
   </section>
   <!-- Prizes Section End -->
-   <section id="problemstatements" class="section-padding">
-    <div class="container">
-      <div class="section-title-header text-center">
-        <h2 style="margin-bottom: 20px;" class="section-title wow fadeInUp" data-wow-delay="0.2s">Suggested Problem Statements for Inspiration</h2>
-      </div>
-      <p>For participants without a specific idea, we have provided problem statements below as inspiration. 
-        You are also welcome to develop your own innovative ideas. Here are some suggested themes and problem statements for INNOSPARK 1.0. </p>
-        <div class="container1">
-          <a href="/assets/College_Hackathon_Problem_Statements.docx" target="_blank" class="button">View Problem Statements</a>
-        </div>
-    </div>
-   </section>
-
-  <!-- Schedule Section Start -->
-  <section id="schedules" class="schedule section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="section-title-header text-center">
-            <h2 style="margin-bottom: 20px;" class="section-title wow fadeInUp" data-wow-delay="0.2s">Event Schedule
-            </h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 mb-5 text-center">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active nav-width" id="monday-tab" data-toggle="tab" href="#monday" role="tab"
-                aria-controls="monday" aria-expanded="true">
-                <div class="item-text">
-                  <h4>Phase 1</h4>
-                  <h5>Registrations</h5>
-                </div>
-              </a>
-            </li>
-            <li class="nav-item nav-width">
-              <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#wednesday" role="tab"
-                aria-controls="wednesday">
-                <div class="item-text">
-                  <h4>Phase 2</h4>
-                  <h5>Hackathon</h5>
-                </div>
-              </a>
-            </li>
-            <li class="nav-item nav-width">
-              <a class="nav-link" id="thursday-tab" data-toggle="tab" href="#thursday" role="tab"
-                aria-controls="thursday">
-                <div class="item-text">
-                  <h4>Phase 3</h4>
-                  <h5>Judging</h5>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-12">
-          <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
-            <div class="schedule-tab-content col-12 clearfix">
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
-                  <div id="accordion">
-                    <div class="card">
-                      <div id="headingOne">
-                        <div class="schedule-slot-time">
-                          <span> Ends on Nov 25</span>
-                          Register
-                        </div>
-                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne1"
-                          aria-expanded="false" aria-controls="collapseOne1">
-
-                          <h4>Registration Process</h4>
-                          <h5 class="name">National Level Hackathon - INNOSPARK 1.0</h5>
-                        </div>
-                      </div>
-                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                          <p>The registration would be simply done by just clicking the register button <a
-                              class="register-link" style="color: #007bff !important;" href="https://forms.gle/S7bRWctJ7nBAh8fb6" target="_blank">here</a>
-                            and filling up a google form in which you would have to mention you and your team details.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
-                  <div id="accordion3">
-                    <div class="card">
-                      <div id="headingOne3">
-                        <div class="schedule-slot-time">
-                          <span>Nov 25</span>
-                          Hackathon
-                        </div>
-                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne3"
-                          aria-expanded="false" aria-controls="collapseOne3">
-
-                          <h4>Hackathon Begins for all</h4>
-                          <h5 class="name">National Level Hackathon - INNOSPARK 1.0</h5>
-                        </div>
-                      </div>
-                      <div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3"
-                        data-parent="#accordion3">
-                        <div class="card-body">
-                          <p>The Hackathon would begin on 25<sup>th</sup> November, 2024 at 9AM and end on
-                            25<sup>th</sup> November, 2024 at
-                            6PM. It is a hackathon where you'd be given various problem statements from various domains
-                            for your team to choose from along with mentors guiding you in certain time gaps.</p>
-
-                        </div>
-                      </div>
-                    </div>
-
-
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
-                  <div id="accordion4">
-                    <div class="card">
-                      <div id="headingOne">
-                        <div class="schedule-slot-time">
-                          <span>Nov 25 - 5PM</span>
-                          Judging
-                        </div>
-                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne4"
-                          aria-expanded="false" aria-controls="collapseOne4">
-
-                          <h4>Judging and presentation of projects begins</h4>
-                          <h5 class="name">National Level Hackathon - INNOSPARK 1.0</h5>
-                        </div>
-                      </div>
-                      <div id="collapseOne4" class="collapse show" aria-labelledby="headingOne"
-                        data-parent="#accordion4">
-                        <div class="card-body">
-                          <p>After the hackathon concludes, your team will present your project to our panel of judges, 
-                            who will provide feedback and evaluate your work.</p>
-
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Schedule Section End -->
 
   <!-- Sponsors Section Start -->
   <section id="sponsors" class="section-padding">
@@ -550,7 +498,7 @@
       <div class="row">
         <div class="col-12">
           <div class="section-title-header text-center">
-            <h2 id="sponsor-heading" class="section-title wow fadeInUp" data-wow-delay="0.2s">Our Sponsors</h2>
+            <h2 id="sponsor-heading" class="section-title wow fadeInUp" data-wow-delay="0.2s">Contact us</h2>
             <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an <br> cule dicta iriure at phaedrum.</p> -->
           </div>
         </div>
@@ -558,8 +506,9 @@
       <div class="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
         <div class="col-lg-12">
           <div class="sponsors-logo text-center">
-            <a href="https://www.csiindia.org/" target="_blank"><img src="assets/img/sponsors/wolfram.png" alt=""
-                id="sponsor-image"></a>
+            <!-- <a href="https://www.csiindia.org/" target="_blank"><img src="assets/img/sponsors/wolfram.png" alt=""
+                id="sponsor-image"></a> -->
+            Revanth Naidu : 6281444011
 
           </div><!-- sponsors logo end-->
         </div>
@@ -585,7 +534,7 @@
             <i class="lni-microphone"></i>
             <h3>Who can participate?</h3>
             <p>
-              The hackathon is right place for anyone who's interested
+              The EPICS-2k25 is right place for anyone who's interested
               in learning and innovating with their ideas.
             </p>
             <span class="count-number">01</span>
@@ -596,7 +545,8 @@
             <i class="lni-users"></i>
             <h3 class="ts-title">How much will it cost?</h3>
             <p>
-              Registration for National Level Hackathon - 1.0 has a small participation fee (₹300 per team) has to be
+              Registration for EPICS-2k25 has a small participation fee ranging from ₹50 to ₹200 depands upon events has
+              to be
               paid while Registration.
             </p>
             <span class="count-number">02</span>
@@ -607,19 +557,18 @@
           <div class="single-intro-text mb-70">
             <i class="lni-bullhorn"></i>
             <h3>How can I apply?</h3>
-            <p>The registration would be simply done by just clicking the register button <a
-                class="register-link">here</a> and filling up a google form in which you would have to mention
-              your team details. Registrations end on 25<sup>th</sup> November, 2024</p>
+            <p>The registration would be simply done by just clicking the register button <a href="#prizes">here</a> and
+              filling up a google form in which you would have to mention
+              your details. Registrations end on 10<sup>th</sup> April, 2025</p>
             <span class="count-number">03</span>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-xs-12">
           <div class="single-intro-text mb-70">
             <i class="lni-heart"></i>
-            <h3>What if I don't know how to code?</h3>
+            <h3>What if I don't know how to get Involved?</h3>
             <p>
-              No worries, Interest in learning and working with technology is much more important than your current
-              experience level.
+              No worries, Interested in learning and working for EPICS-2k25, just contact us.
             </p>
             <span class="count-number">04</span>
           </div>
@@ -629,10 +578,9 @@
             <i class="lni-cup"></i>
             <h3>What are the prizes to be won?</h3>
             <p>
-              1<sup>st</sup> Prize - ₹ 7,000<br>
-              2<sup>nd</sup> Prize - ₹ 4,000<br>
-              3<sup>rd</sup> Prize - ₹ 2,000<br>
-              Participation Certificate will be provided to all participants
+              Prizes will be purely based on the event and the winners will be awarded with certificates and exciting
+              prizes.
+              Participation Certificates will be provided to all participants
             </p>
             <span class="count-number">05</span>
           </div>
@@ -640,10 +588,9 @@
         <div class="col-lg-4 col-md-6 col-xs-12">
           <div class="single-intro-text mb-70">
             <i class="lni-gallery"></i>
-            <h3>Can we apply as a team?</h3>
+            <h3> How communications are done? </h3>
             <p>
-              Yes! We believe that you're stronger as a team than apart. You can form teams of 1-3 people. Most teams
-              aim to have a mix of people with both design and development skills.
+              Just follow us on our social media handles and stay updated with the latest news and updates.
             </p>
             <span class="count-number">06</span>
           </div>
@@ -654,10 +601,10 @@
   <!-- FAQ Section End -->
 
   <!-- Contact text Start -->
-  <section id="contact-text">
+  <!-- <section id="contact-text">
     <div class="container">
       <div class="row contact-wrapper">
-        <div class="col-lg-4 col-md-5 col-xs-12">
+        <div class="col-lg-3 col-md-5 col-xs-12">
           <ul>
             <a href="https://maps.app.goo.gl/4DGFLGiAxecXrMQ96">
               <li>
@@ -667,17 +614,17 @@
             </a>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-3 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-xs-12">
           <ul>
-            <a href="tel:+917670822609">
+            <a href="tel:+916281444011">
               <li>
                 <i class="lni-phone"></i>
               </li>
-              <li><span>Harshavardhan Vijapuram: 7670822609</span></li>
+              <li><span>Revanth Naidu : 6281444011</span></li>
             </a>
           </ul>
         </div>
-        <div class="col-lg-4 col-md-3 col-xs-12">
+        <div class="col-lg-3 col-md-3 col-xs-12">
           <ul>
             <a href="mailto:mits.hackathon1.0@gmail.com">
               <li>
@@ -689,7 +636,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Contact text End -->
 
   <footer>
@@ -704,7 +651,7 @@
               </ul>
             </div> -->
           <div class="site-info">
-            <p>Designed and Developed by <a href="http://www.mits.ac.in/" rel="nofollow">MITS - CSE</a></p>
+            <p>Designed and Developed by <a href="https://hopire.tech/" rel="nofollow">Hopire Tech Solutions LLP</a></p>
           </div>
         </div>
       </div>
@@ -713,7 +660,7 @@
 
   <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("Nov 25, 2024 00:00:00").getTime();
+    var countDownDate = new Date("Apr 10, 2025 00:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
