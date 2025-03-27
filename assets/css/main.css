@@ -679,7 +679,7 @@ a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-	color: #374553;
+	color: #e0e0e0;
 	font-size: 14px;
 	padding: 0 15px;
 	margin-top: 10px;
@@ -703,7 +703,7 @@ a.back-to-top:focus {
 	margin-left: -10px;
 	width: 15px;
 	height: 2px;
-	background: #2b72ad;
+	background: #10004c;
 	-webkit-transform: scale3d(0, 1, 1);
 	-moz-transform: scale3d(0, 1, 1);
 	transform: scale3d(0, 1, 1);
@@ -747,7 +747,7 @@ a.back-to-top:focus {
 }
 
 .navbar li.active a.nav-link {
-	background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
+	background-image: linear-gradient(65deg, #10004c 0, #001f9c 50%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text !important;
@@ -2881,7 +2881,25 @@ li.stylish-list {
 
 @media screen and (max-width: 600px) {
 	#hero-image {
-		margin-bottom: 25vh;
+		margin-top: 5rem;
+		transform-origin: center;
+		transform: scale(5);
+		left: 44% !important;
+	}
+	.banner-btn .btn {
+		visibility: hidden !important;
+	}
+	.ready-to-play{
+		padding: 0;
+	}
+	.img-banner{
+		width: 100vw;
+		object-fit: cover;
+		object-position: top;
+		box-shadow: 0 0 10px 2px #efa0f6;
+	}
+	.inforation-wrapper{
+		top: 0;
 	}
 }
 
