@@ -971,24 +971,25 @@ a.back-to-top:focus {
 	position: relative;
 }
 
-.event-card{
+.event-card {
 	background-color: white;
 	padding: 1rem;
 	border-radius: 20px;
 }
 
-.event-card img{
+.event-card img {
 	border-radius: 10px;
 }
 
-.event-card > div > h3, .event-card p{
+.event-card > div > h3,
+.event-card p {
 	color: black;
 	text-align: center;
 }
-.events{
+.events {
 	gap: 1rem;
 }
-.event-card a{
+.event-card a {
 	text-align: center;
 	display: block;
 	width: 100%;
@@ -2686,6 +2687,9 @@ div#clock {
 		margin-top: 0px;
 	}
 }
+.text {
+	display: none;
+}
 @media (max-width: 768px) {
 	#count .count-wrapper {
 		margin-top: 100px;
@@ -2699,6 +2703,22 @@ div#clock {
 		padding: 10px 0;
 		margin: 10px 8px;
 	}
+	/* .text {
+		display: block;
+		position: absolute;
+		top: 15%;
+		font-size: 2rem;
+		line-height: 1.4;
+		font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		text-align: center;
+		width: 100%;
+		color: #bababa;
+	} */
+
+	.hero-area-bg {
+		background-position-y: -70px;
+	}
+
 	#clock div h3 {
 		font-size: 28px;
 		margin-bottom: 10px;
@@ -2881,32 +2901,55 @@ li.stylish-list {
 
 @media screen and (max-width: 600px) {
 	#hero-image {
-		margin-top: 5rem;
+		margin-top: 1rem !important;
 		transform-origin: center;
 		transform: scale(5);
-		left: 44% !important;
+		left: 48% !important;
 	}
 	.banner-btn .btn {
 		visibility: hidden !important;
 	}
-	.ready-to-play{
+	.ready-to-play {
 		padding: 0;
 	}
-	.img-banner{
+	#nav-logo {
+		padding: 1.5rem 0;
+		width: auto !important;
+		height: 100px !important;
+	}
+	.img-banner {
 		width: 100vw;
 		object-fit: cover;
 		object-position: top;
 		box-shadow: 0 0 10px 2px #efa0f6;
 	}
-	.inforation-wrapper{
+	.inforation-wrapper {
 		top: 0;
 	}
 }
 
-.round{
+.navbar-toggler{
+	font-size: 2.5rem;
+}
+
+.contact-grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 1rem;
+	width: fit-content;
+	margin-inline: auto;
+	column-gap: 10rem;
+}
+.contact-grid p{
+	color: black;
+	font-weight: 700;
+	text-align: left;
+}
+
+.round {
 	position: absolute;
-    top: 49%;
-    left: 50.75%;
+	top: 49%;
+	left: 50.75%;
 	translate: -50% -50%;
 	scale: 0.53;
 	/* animation: rotate infinite 2s; */
